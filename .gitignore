@@ -1,0 +1,1 @@
+.env\n*.pyc\n__pycache__/\n*.swp\nenv/\n.venv/\nenv.yml\nvenv/\n*.egg-info\n*.egg\n.eggs\nparts/\nbin/\nvar/\n*.log\n.installed.cfg\n.conda\n*.so\n*.dSYM/\n**/logs/\n**/tmp/\n.DS_Store
