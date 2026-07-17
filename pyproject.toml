@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-agent-orchestra"
+version = "0.1.0"
+description = "Interactive, distributed orchestration framework for AI agents"
+authors = ["Your Name <email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0"
+rust = "^1.70"
+maturin = { version = ">=1.0", options = { no-binary = ":*" } }
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3"
+bandit = "^1.7"
+mypy = "^1.5"
